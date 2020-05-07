@@ -1,0 +1,32 @@
+{
+ "oracle": {
+  "db_version": "(select SUBSTR(banner, 8, 12) from sys.v_$version where rownum=1)",
+  "db_name": "(select user from dual)",
+  "user_name": "(select user from dual)",
+  "table_count": "(select count(table_name) from user_tables)",
+  "table_name": "(select table_name from user_tables where rownum=1 and table_name<>'[LAST_TABLE_NAME]')",
+  "column_count": "(select count(table_name) from user_tables)",
+  "column_name": "(select column_name from user_tab_columns where rownum=1 and table_name='[TABLE_NAME]'and column_name<>'[LAST_COLUMN_NAME]')",
+  "data": "(select [COLUMN_NAME] from [TABLE_NAME] where rownum=1)"
+ },
+ "mssql": {
+  "db_version": "(select SUBSTRING(@@version, 11, 15))",
+  "user_name": "(select user)",
+  "db_name": "(select db_name())",
+  "all_table_name": "(select quotename(name) from [DB_MAME]..sysobjects where xtype='U' FOR XML PATH(''))",
+  "table_count": "(select count(name) from test..sysobjects where xtype='U' FOR XML PATH(''))",
+  "table_name": "(select top 1 name from sysobjects where xtype='u')",
+  "all_column_name": "(select quotename(name) from [DB_NAME]..syscolumns where id =(select id from [DB_NAME]..sysobjects where name='[TABLE_NAME]') FOR XML PATH(''))",
+  "column_count": "(select count(*) from syscolumns where id =(select id from sysobjects where name='[TABLE_NAME]'))",
+  "column_name": "(select top 1 name from syscolumns where id =(select id from sysobjects where name='[TABLE_NAME]'))",
+  "data": "(select [COLUMN_NAME] from [TABLE_NAME] where rownum=1)"
+ },
+ "mysql": {
+  "db_version": "(select version())",
+  "user_name": "(select user())", 
+  "db_name": "(select database())",
+  "all_table_name": "(select group_concat(table_name) from information_schema.tables where table_schema=[DB_NAME])",
+  "all_column_name": "(select group_concat(column_name) from information_schema.columns where table_name=[TABLE_NAME])",
+  "data": "(select [COLUMN_NAME] from [TABLE_NAME] where rownum=1)"
+ }
+}

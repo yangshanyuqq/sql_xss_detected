@@ -1,0 +1,102 @@
+{
+ "mysql": [
+  {
+   "version": "",
+   "expression": "'aa'='a' 'a'"
+  },
+  {
+   "version": "8.0.0",
+   "expression": "ISNULL(JSON_STORAGE_FREE(NULL))"
+  },
+  {
+   "version": "5.7.0",
+   "expression": "ISNULL(JSON_QUOTE(NULL))"
+  },
+  {
+   "version": "5.6.0",
+   "expression": "ISNULL(VALIDATE_PASSWORD_STRENGTH(NULL))"
+  },
+  {
+   "version": "5.5.0",
+   "expression": "TO_SECONDS(950501)>0"
+  },
+  {
+   "version": "5.0.38",
+   "expression": "@@hostname=@@hostname"
+  },
+  {
+   "version": "5.0.19",
+   "expression": "@@character_set_filesystem=@@character_set_filesystem"
+  },
+  {
+   "version": "5.0.6",
+   "expression": "@@div_precision_increment=@@div_precision_increment"
+  },
+  {
+   "version": "5.0.3",
+   "expression": "@@automatic_sp_privileges=@@automatic_sp_privileges"
+  },
+  {
+   "version": "5.0.2",
+   "expression": "DATABASE() LIKE SCHEMA()"
+  },
+  {
+   "version": "5.0.0",
+   "expression": "STRCMP(LOWER(CURRENT_USER()), UPPER(CURRENT_USER()))=0"
+  },
+  {
+   "version": "4.1.11",
+   "expression": "3=(SELECT COERCIBILITY(USER()))"
+  },
+  {
+   "version": "4.1.1",
+   "expression": "2=(SELECT COERCIBILITY(USER()))"
+  },
+  {
+   "version": "4.0.6",
+   "expression": "CURRENT_USER()=CURRENT_USER()"
+  }
+ ],
+ "oracle": [
+     {
+         "version": "",
+         "expression": "'aa'='a'||'a'"
+     },
+     {
+         "version": "",
+         "expression": "NVL(RAWTOHEX([RANDNUM]),[RANDNUM])=RAWTOHEX([RANDNUM])"
+     },
+     {
+         "version": "",
+         "expression": "LENGTH(SYSDATE)=LENGTH(SYSDATE)"
+     }
+ ],
+ "mssql": [
+  {
+   "version": "",
+   "expression": "'aa'='a'+'a'"
+  },
+  {
+   "version": "2016",
+   "expression": "ISJSON(NULL) IS NULL"
+  },
+  {
+   "version": "2014",
+   "expression": "CHARINDEX('12.0.2000',@@version)>0"
+  },
+  {
+   "version": "2012",
+   "expression": "CONCAT(NULL,NULL)=CONCAT(NULL,NULL)"
+  },
+  {
+   "version": "2008",
+   "expression": "XACT_STATE()=XACT_STATE()"
+  },
+  {
+   "version": "2000",
+   "expression": "HOST_NAME()=HOST_NAME()"
+  }
+ ],
+ "mssql&oracle": "TRIM(NULL) IS NULL",
+ "mysql&oracle": "SELECT 1 FROM DUAL WHERE 2=2"
+}

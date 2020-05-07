@@ -1,0 +1,12 @@
+http://192.168.45.1/xss/xssgame/level1.php?name=1&x=2
+http://192.168.45.1/xss/xssgame/level2.php?keyword=2
+http://192.168.45.1/xss/xssgame/level3.php?keyword=2
+http://192.168.45.1/xss/xssgame/level4.php?keyword=2
+http://192.168.45.1/xss/xssgame/level5.php?keyword=2
+http://192.168.45.1/xss/xssgame/level6.php?keyword=2
+http://192.168.45.1/xss/xssgame/level7.php?keyword=2
+http://192.168.45.1/xss/xssgame/level8.php?keyword=2&submit=%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5
+http://192.168.45.1/xss/xssgame/level9.php?name=2 
+http://192.168.45.1/xss/xssgame/level9a.php?name=2
+http://192.168.45.1/xss/xssgame/level10.php?name=2
+http://192.168.45.1/xss/xssgame/level11.php?name=2

@@ -1,0 +1,26 @@
+{
+ "low": [
+  {
+   "prefix": " ",
+   "suffix": "#[RANDSTR]"
+  },
+  {
+   "prefix": "'",
+   "suffix": "--+[RANDSTR]"
+  },
+  {
+   "prefix": "'",
+   "suffix": "#[RANDSTR]"
+  }
+ ],
+ "high": [
+  {
+   "prefix": "as",
+   "suffix": ""
+  },
+  {
+   "prefix": "",
+   "suffix": "ds"
+  }
+ ]
+}

